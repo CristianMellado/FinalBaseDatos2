@@ -1,0 +1,17 @@
+
+<div class="container mt-4">
+    <h1>Reseñas de Películas</h1>
+    <div *ngFor="let review of reviews" class="card mb-3">
+      <div class="card-header">
+        <h2>{{ review.movieTitle }}</h2>
+      </div>
+      <div class="card-body">
+        <p><strong>Año:</strong> {{ review.year }}</p>
+        <p><strong>Director:</strong> {{ review.director }}</p>
+        <p><strong>Crítico:</strong> {{ review.reviewerName }}</p>
+        <p><strong>Reseña:</strong> {{ review.reviewText }}</p>
+        <p><strong>Puntuación:</strong> {{ review.rating }}/20</p>
+      </div>
+    </div>
+  </div>
+  

@@ -1,0 +1,17 @@
+.navbar-custom {
+    background-color: #343a40; /* Color de fondo oscuro */
+    color: white;
+  }
+  
+  .navbar-custom .navbar-brand,
+  .navbar-custom .nav-link {
+    color: white; /* Color del texto blanco */
+  }
+  
+  .navbar-custom .nav-link:hover {
+    color: #ddd; /* Color del texto al pasar el ratón por encima */
+  }
+  
+  .navbar-brand {
+    font-weight: bold; /* Negrita para el título */
+  }
